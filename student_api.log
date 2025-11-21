@@ -1,0 +1,67 @@
+    2025-11-21 11:18:22,484 - INFO - django.utils.autoreload - Watching for file changes with StatReloader
+2025-11-21 11:21:48,766 - INFO - django.utils.autoreload - C:\Users\Pooja Lande\Desktop\student_api_view_decorator_logger\student_api_project\student_app\views.py changed, reloading.
+2025-11-21 11:21:49,287 - INFO - django.utils.autoreload - Watching for file changes with StatReloader
+2025-11-21 11:21:50,693 - INFO - django.utils.autoreload - C:\Users\Pooja Lande\Desktop\student_api_view_decorator_logger\student_api_project\student_app\views.py changed, reloading.
+2025-11-21 11:21:51,203 - INFO - django.utils.autoreload - Watching for file changes with StatReloader
+2025-11-21 11:21:52,546 - INFO - django.utils.autoreload - C:\Users\Pooja Lande\Desktop\student_api_view_decorator_logger\student_api_project\student_app\views.py changed, reloading.
+2025-11-21 11:21:53,088 - INFO - django.utils.autoreload - Watching for file changes with StatReloader
+2025-11-21 11:21:59,491 - INFO - django.utils.autoreload - C:\Users\Pooja Lande\Desktop\student_api_view_decorator_logger\student_api_project\student_app\views.py changed, reloading.
+2025-11-21 11:22:00,038 - INFO - django.utils.autoreload - Watching for file changes with StatReloader
+2025-11-21 11:22:02,395 - INFO - django.utils.autoreload - C:\Users\Pooja Lande\Desktop\student_api_view_decorator_logger\student_api_project\student_app\views.py changed, reloading.
+2025-11-21 11:22:02,911 - INFO - django.utils.autoreload - Watching for file changes with StatReloader
+2025-11-21 11:22:04,192 - INFO - django.utils.autoreload - C:\Users\Pooja Lande\Desktop\student_api_view_decorator_logger\student_api_project\student_app\views.py changed, reloading.
+2025-11-21 11:22:04,683 - INFO - django.utils.autoreload - Watching for file changes with StatReloader
+2025-11-21 11:24:07,052 - INFO - student_app - API called: POST /api/students/
+2025-11-21 11:24:07,052 - INFO - student_app - Request data: {'name': 'Priya', 'age': 23, 'city': 'Satara'}
+2025-11-21 11:24:07,062 - INFO - student_app - Response status: 201
+2025-11-21 11:24:07,062 - INFO - student_app - Response data: {'id': 3, 'name': 'Priya', 'age': 23, 'city': 'Satara'}
+2025-11-21 11:24:07,062 - INFO - django.server - "POST /api/students/ HTTP/1.1" 201 48
+2025-11-21 11:24:33,557 - INFO - student_app - API called: POST /api/students/
+2025-11-21 11:24:33,557 - INFO - student_app - Request data: {'name': 'Pratiksha', 'age': 21, 'city': 'Mumbai'}
+2025-11-21 11:24:33,570 - INFO - student_app - Response status: 201
+2025-11-21 11:24:33,572 - INFO - student_app - Response data: {'id': 4, 'name': 'Pratiksha', 'age': 21, 'city': 'Mumbai'}
+2025-11-21 11:24:33,574 - INFO - django.server - "POST /api/students/ HTTP/1.1" 201 52
+2025-11-21 11:25:30,700 - INFO - student_app - API called: DELETE /api/students/4/
+2025-11-21 11:25:30,700 - INFO - student_app - Request data: {}
+2025-11-21 11:25:30,723 - INFO - student_app - Response status: 204
+2025-11-21 11:25:30,723 - INFO - student_app - Response data: {'message': 'Student deleted'}
+2025-11-21 11:25:30,723 - INFO - django.server - "DELETE /api/students/4/ HTTP/1.1" 204 29
+2025-11-21 11:25:39,934 - INFO - student_app - API called: GET /api/students/
+2025-11-21 11:25:39,934 - INFO - student_app - Request data: {}
+2025-11-21 11:25:39,934 - INFO - student_app - Response status: 200
+2025-11-21 11:25:39,939 - INFO - student_app - Response data: [{'id': 1, 'name': 'Pooja Lande', 'age': 22, 'city': 'Pune'}, {'id': 3, 'name': 'Priya', 'age': 23, 'city': 'Satara'}]
+2025-11-21 11:25:39,939 - INFO - django.server - "GET /api/students/ HTTP/1.1" 200 103
+2025-11-21 11:26:09,994 - INFO - student_app - API called: PUT /api/students/3/
+2025-11-21 11:26:09,994 - INFO - student_app - Request data: {'name': 'Pooja Lande', 'age': 22, 'city': 'Pune'}
+2025-11-21 11:26:10,027 - INFO - student_app - Response status: 200
+2025-11-21 11:26:10,027 - INFO - student_app - Response data: {'id': 3, 'name': 'Pooja Lande', 'age': 22, 'city': 'Pune'}
+2025-11-21 11:26:10,027 - INFO - django.server - "PUT /api/students/3/ HTTP/1.1" 200 52
+2025-11-21 11:26:40,076 - INFO - student_app - API called: PUT /api/students/3/
+2025-11-21 11:26:40,076 - INFO - student_app - Request data: {'name': 'Priya Patil', 'age': 23, 'city': 'Karad,Satara'}
+2025-11-21 11:26:40,100 - INFO - student_app - Response status: 200
+2025-11-21 11:26:40,100 - INFO - student_app - Response data: {'id': 3, 'name': 'Priya Patil', 'age': 23, 'city': 'Karad,Satara'}
+2025-11-21 11:26:40,103 - INFO - django.server - "PUT /api/students/3/ HTTP/1.1" 200 60
+2025-11-21 11:38:46,772 - INFO - django.utils.autoreload - C:\Users\Pooja Lande\Desktop\student_api_view_decorator_logger\student_api_project\student_api_project\settings.py changed, reloading.
+2025-11-21 11:49:50,333 - INFO - django.utils.autoreload - Watching for file changes with StatReloader
+2025-11-21 11:49:57,899 - INFO - student_app - API called: PUT /api/students/7/
+2025-11-21 11:49:57,899 - INFO - student_app - Request data: {'name': 'Priya Patil', 'age': 23, 'city': 'Karad,Satara'}
+2025-11-21 11:49:57,901 - INFO - student_app - Response status: 404
+2025-11-21 11:49:57,901 - INFO - student_app - Response data: {'message': 'Student not found'}
+2025-11-21 11:49:57,905 - WARNING - django.request - Not Found: /api/students/7/
+2025-11-21 11:49:57,905 - WARNING - django.server - "PUT /api/students/7/ HTTP/1.1" 404 31
+2025-11-21 12:04:54,455 - INFO - django.utils.autoreload - C:\Users\Pooja Lande\Desktop\student_api_view_decorator_logger\student_api_project\student_api_project\settings.py changed, reloading.
+2025-11-21 12:04:55,061 - INFO - django.utils.autoreload - Watching for file changes with StatReloader
+2025-11-21 12:06:06,513 - INFO - django.utils.autoreload - C:\Users\Pooja Lande\Desktop\student_api_view_decorator_logger\student_api_project\student_api_project\settings.py changed, reloading.
+2025-11-21 12:06:07,108 - INFO - django.utils.autoreload - Watching for file changes with StatReloader
+2025-11-21 12:06:08,440 - INFO - django.utils.autoreload - C:\Users\Pooja Lande\Desktop\student_api_view_decorator_logger\student_api_project\student_api_project\settings.py changed, reloading.
+2025-11-21 12:06:09,012 - INFO - django.utils.autoreload - Watching for file changes with StatReloader
+2025-11-21 12:06:14,416 - INFO - django.utils.autoreload - C:\Users\Pooja Lande\Desktop\student_api_view_decorator_logger\student_api_project\student_api_project\settings.py changed, reloading.
+2025-11-21 12:06:15,011 - INFO - django.utils.autoreload - Watching for file changes with StatReloader
+2025-11-21 12:07:42,620 - INFO - django.utils.autoreload - C:\Users\Pooja Lande\Desktop\student_api_view_decorator_logger\student_api_project\student_api_project\settings.py changed, reloading.
+2025-11-21 12:07:43,160 - INFO - django.utils.autoreload - Watching for file changes with StatReloader
+2025-11-21 12:07:44,483 - INFO - django.utils.autoreload - C:\Users\Pooja Lande\Desktop\student_api_view_decorator_logger\student_api_project\student_api_project\settings.py changed, reloading.
+2025-11-21 12:07:45,104 - INFO - django.utils.autoreload - Watching for file changes with StatReloader
+2025-11-21 12:07:46,410 - INFO - django.utils.autoreload - C:\Users\Pooja Lande\Desktop\student_api_view_decorator_logger\student_api_project\student_api_project\settings.py changed, reloading.
+2025-11-21 12:07:47,039 - INFO - django.utils.autoreload - Watching for file changes with StatReloader
+2025-11-21 12:11:46,002 - INFO - django.utils.autoreload - C:\Users\Pooja Lande\Desktop\student_api_view_decorator_logger\student_api_project\student_app\logger.py changed, reloading.
+2025-11-21 12:11:46,594 - INFO - django.utils.autoreload - Watching for file changes with StatReloader
